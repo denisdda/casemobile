@@ -40,17 +40,17 @@ body {
 
 ::-webkit-selection {
   color: #ffffff;
-  background: #1dcdfe;
+  background: #57cecd;
 }
 
 ::-moz-selection {
   color: #ffffff;
-  background: #1dcdfe;
+  background: #57cecd;
 }
 
 ::selection {
   color: #ffffff;
-  background: #1dcdfe;
+  background: #57cecd;
 }
 
 a {
@@ -59,17 +59,17 @@ a {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  color: #1dcdfe;
+  color: #57cecd;
   border-bottom: 1px solid #ccc;
 }
 a:hover, a:focus, a:active {
-  color: #1dcdfe;
+  color: #31a8a7;
 }
 a:hover, a:focus, a:active {
   outline: none;
   color: #2e2e2e;
   text-decoration: none;
-  border-bottom: 1px solid #1dcdfe;
+  border-bottom: 1px solid #57cecd;
 }
 
 input {
@@ -1042,7 +1042,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   }
 }
 .fh5co-cards .fh5co-card {
-  /* display: block; */
+  display: block;
   background: #ffffff;
   position: relative;
   overflow: hidden;
@@ -1070,7 +1070,6 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 .fh5co-cards .fh5co-card .fh5co-card-body {
   padding: 30px;
 }
-
 .fh5co-cards .fh5co-card .fh5co-card-body h3 {
   font-size: 20px;
   color: #8b969c;
@@ -1093,7 +1092,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  color: #1dcdfe;
+  color: #57cecd;
 }
 
 .quote {
@@ -1188,7 +1187,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: rgb(109, 109, 109);
+  color: #ccc;
 }
 
 .form-group {
@@ -1388,7 +1387,7 @@ Components
 }
 
 .resp-tab-active {
-  color: #1dcdfe;
+  color: #57cecd;
 }
 
 .resp-content-active, .resp-accordion-active {
@@ -1492,7 +1491,7 @@ Components
   cursor: pointer;
 }
 .fh5co-accordion .panel-heading .accordion-toggle {
-  color: #1dcdfe;
+  color: #57cecd;
 }
 .fh5co-accordion .panel-heading .accordion-toggle:after {
   font-family: 'themify';
@@ -1744,7 +1743,7 @@ Components
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev i,
 .owl-carousel-fullwidth .owl-controls .owl-nav .owl-next i,
 .owl-carousel-fullwidth .owl-controls .owl-nav .owl-prev i {
-  color: #1dcdfe;
+  color: #2e2e2e;
 }
 .owl-carousel-posts .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev:hover i,
@@ -1796,7 +1795,7 @@ Components
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: #1dcdfe;
+  background: #57cecd;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -1806,12 +1805,12 @@ Components
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #1dcdfe;
+  border: 2px solid #57cecd;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #1dcdfe;
+  border: 2px solid #57cecd;
 }
 
 /* Image Alignment */
@@ -1904,61 +1903,4 @@ a > img.fh5co-align-center {
   .flex-container {
     flex-direction: column;
   }
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-.mycontainer {
-  margin-right: auto;
-  margin-left: auto;
-}
-.mycontainer:before, .mycontainer:after {
-  content: " ";
-  display: table;
-}
-.mycontainer:after {
-  clear: both;
-}
-@media (min-width: 768px) {
-  .mycontainer {
-    width: 770px;
-  }
-}
-@media (min-width: 992px) {
-  .mycontainer {
-    width: 990px;
-  }
-}
-@media (min-width: 1200px) {
-  .mycontainer {
-    width: 990px;
-  }
-}
-
-.mycontainer-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.mycontainer-fluid:before, .mycontainer-fluid:after {
-  content: " ";
-  display: table;
-}
-.mycontainer-fluid:after {
-  clear: both;
-}
-
-.padding-detalii {
-  padding-bottom: 10px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
