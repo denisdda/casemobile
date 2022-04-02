@@ -1908,3 +1908,9 @@ a > img.fh5co-align-center {
 .imghg {
   height:750px;
 }
+
+@media (max-width: 800px) {
+  .imghg {
+    height:auto;
+  }
+}
