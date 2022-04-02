@@ -1905,16 +1905,6 @@ a > img.fh5co-align-center {
   }
 }
 
-.detpc {
-  padding-left: 300px;
-}
-
-.detnot {
-
-}
-
-@media screen and (max-width: 1024px) {
-  .yourClass {
-      display: none !important;
-  }
+.imghg {
+  height:750px;
 }
