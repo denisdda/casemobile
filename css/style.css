@@ -1904,3 +1904,17 @@ a > img.fh5co-align-center {
     flex-direction: column;
   }
 }
+
+.detpc {
+  padding-left: 300px;
+}
+
+.detnot {
+
+}
+
+@media screen and (max-width: 1024px) {
+  .yourClass {
+      display: none !important;
+  }
+}
