@@ -602,7 +602,7 @@ textarea {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: block;
-  height: 44px;
+  height: 80px;
   left: 0;
   position: fixed;
   text-align: center;
