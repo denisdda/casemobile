@@ -602,7 +602,7 @@ textarea {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: block;
-  height: 80px;
+  height: 60px;
   left: 0;
   position: fixed;
   text-align: center;
@@ -1911,4 +1911,12 @@ a > img.fh5co-align-center {
   .imghg {
     height:auto;
   }
+}
+
+@font-face {
+  font-family: 'TT Tricks';
+  src: url('/customfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
